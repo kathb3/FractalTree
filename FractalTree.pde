@@ -9,7 +9,8 @@ public void setup()
 public void draw() 
 {   
 	background(0);   
-	stroke(0,255,0);   
+	noFill();
+	stroke((float)Math.random()*255, (float)Math.random()*255, (float)Math.random()*255);   
 	line(320,480,320,380);   
 	//drawBranches(??,??,??,??);  //will add later 
 } 

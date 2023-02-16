@@ -19,3 +19,7 @@ footer {
 	font-style: italic;
 	font-size: 90%;
 }
+
+span {
+	color: rgb(255,0,0);
+}

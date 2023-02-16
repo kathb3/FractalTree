@@ -5,7 +5,7 @@ public int x = -250;
 public void setup() 
 {   
   size(700,700);  
-  frameRate(120);
+  frameRate(60);
 } 
 public void draw() 
 {   

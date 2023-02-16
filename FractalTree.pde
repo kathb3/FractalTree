@@ -5,6 +5,7 @@ public int x = -250;
 public void setup() 
 {   
   size(700,700);  
+  frameRate(120);
 } 
 public void draw() 
 {   
@@ -19,8 +20,8 @@ public void draw()
 } 
 public void drawBranches(int x,int y, double branchLength, double angle) 
 {   
-  double angle1 = angle + branchAngle + .999;
-  double angle2 = angle - branchAngle - 0.0001;
+  double angle1 = angle + branchAngle + .0001;
+  double angle2 = angle - branchAngle - 0.999;
   branchLength*=fractionLength;
   int endX1 = (int)(branchLength*Math.cos(angle1) + x);
   int endY1 = (int)(branchLength*Math.sin(angle1) + y);
